@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="widget_minWidth_4x2">294dp</dimen>
+    <dimen name="widget_minHeight_4x2">148dp</dimen>
+    <dimen name="widget_minWidth_4x1">294dp</dimen>
+    <dimen name="widget_minHeight_4x1">74dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="cardview_margin">15dp</dimen>
+    <dimen name="cardview_corner_radius">8dp</dimen>
+    <dimen name="cardview_padding">10dp</dimen>
+
+    <dimen name="query_location_view_height">20dp</dimen>
+
+    <dimen name="card_daily_chart_view_text_size">15dp</dimen>
+    <dimen name="card_daily_chart_view_point_size">3dp</dimen>
+    <dimen name="card_daily_chart_view_path_width">1dp</dimen>
+    <dimen name="card_daily_chart_view_height">140dp</dimen>
+    <dimen name="card_daily_chart_view_padding">20dp</dimen>
+    <dimen name="card_hourly_chart_view_item_width">42dp</dimen>
+    <dimen name="card_hourly_chart_view_height">90dp</dimen>
+    <dimen name="card_hourly_list_view_item_height">30dp</dimen>
+
+    <dimen name="animation_rain_drop_width_max">0.5px</dimen>
+    <dimen name="animation_rain_drop_height_max">35dp</dimen>
+    <dimen name="animation_rain_drop_speed_x_max">1px</dimen>
+    <dimen name="animation_rain_drop_speed_y_max">15dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+</resources>

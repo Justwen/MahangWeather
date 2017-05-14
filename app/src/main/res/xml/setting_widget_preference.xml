@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/setting_basic" >
+        <MultiSelectListPreference
+            android:dialogTitle="@string/setting_card_manager_title"
+            android:entries="@array/card_list"
+            android:entryValues="@array/card_list_key"
+            android:key="card_manager"
+            android:title="@string/setting_card_manager_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_widget" >
+        <SwitchPreference
+            android:key="refresh"
+            android:title="@string/setting_widget_refresh_title" />
+
+        <PreferenceScreen
+            android:enabled="false"
+            android:key="refresh_time"
+            android:summary="@string/setting_widget_refresh_time_default_summary"
+            android:title="@string/setting_widget_refresh_time_title" />
+
+        <ListPreference
+            android:dialogTitle="@string/setting_widget_city_dialog_title"
+            android:key="city"
+            android:negativeButtonText="@android:string/cancel"
+            android:title="@string/setting_widget_city_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mahang.weather.view.SwipeRefreshView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pulltorefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.mahang.weather.view.card.WeatherCardRealView
+            android:id="@+id/real_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardview_margin"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/cardview_bg_color_alpha" />
+
+        <com.mahang.weather.view.card.WeatherCardAirView
+            android:id="@+id/air_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardview_margin"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/cardview_bg_color_alpha" />
+
+        <com.mahang.weather.view.card.WeatherCardHourlyView
+            android:id="@+id/hourly_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardview_margin"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/cardview_bg_color_alpha" />
+
+        <com.mahang.weather.view.card.WeatherCardDailyView
+            android:id="@+id/daily_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardview_margin"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/cardview_bg_color_alpha" />
+
+        <com.mahang.weather.view.card.WeatherCardSuggestionView
+            android:id="@+id/daily_suggestio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardview_margin"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/cardview_bg_color_alpha" />
+    </LinearLayout>
+    </ScrollView>
+</com.mahang.weather.view.SwipeRefreshView>

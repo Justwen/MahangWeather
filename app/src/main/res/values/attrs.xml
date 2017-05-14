@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ChartView">
+        <attr name="dateTextSize" format="reference|dimension" />
+        <attr name="weekTextSize" format="reference|dimension" />
+        <attr name="iconSize" format="reference|dimension" />
+    </declare-styleable>
+
+</resources>

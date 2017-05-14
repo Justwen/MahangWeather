@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view_ripple_bg"
+    android:padding="@dimen/cardview_padding"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_daily_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/cardview_padding"
+        android:layout_marginBottom="@dimen/cardview_padding"
+        android:alpha="0.5"
+        android:background="@color/text_color" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridView
+            android:id="@+id/daily_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="6" />
+
+        <com.mahang.weather.view.card.WeatherCardDailyChartView
+            android:id="@+id/daily_info_chart"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_height="@dimen/card_daily_chart_view_height" />
+
+    </FrameLayout>
+
+</LinearLayout>

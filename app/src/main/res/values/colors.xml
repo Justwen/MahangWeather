@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+    <color name="textColor">#FFF5F5F5</color>
+    <color name="textColorBlack">#FF212121</color>
+    <color name="colorPrimary">@android:color/holo_blue_dark</color>
+    <color name="colorPrimaryDark">@android:color/holo_blue_dark</color>
+    <color name="colorAccent">@android:color/holo_green_dark</color>
+    <color name="list_bg_color">#FFFAFAFA</color>
+    <color name="text_color">#FFF5F5F5</color>
+
+
+  
+    <color name="startColor_sunny">#ff006ab6</color>
+    <color name="startColor_clear">#ff000818</color>
+    <color name="startColor_partlysunny">#ff006ab6</color>
+    <color name="startColor_mostlyclear">#ff000818</color>
+    <color name="startColor_shower_day">#ff257baa</color>
+    <color name="startColor_shower_night">#ff052f42</color>   
+    <color name="startColor_thunderstorms_day">#ff4e1f94</color>
+    <color name="startColor_thunderstorms_night">#ff23035b</color>
+    <color name="startColor_mostlycloudy_day">#ff33617f</color>
+    <color name="startColor_mostlycloudy_night">#ff0c1a24</color>
+    <color name="startColor_hail_day">#ff257baa</color>
+    <color name="startColor_hail_night">#ff052f42</color>   
+    <color name="startColor_rainandsnowmixed_day">#ff257baa</color>
+    <color name="startColor_rainandsnowmixed_night">#ff052f42</color>      
+    <color name="startColor_fog_day">#ff508490</color>
+    <color name="startColor_fog_night">#ff0d3845</color>
+    <color name="startColor_rain_day">#ff257baa</color>
+    <color name="startColor_rain_night">#ff052f42</color>
+    <color name="startColor_heavy_rain_day">#ff257baa</color>
+    <color name="startColor_heavy_rain_night">#ff052f42</color>
+    <color name="startColor_snow_day">#ff2a71b0</color>
+    <color name="startColor_snow_night">#ff011065</color>
+    <color name="startColor_flurries_day">#ff2a71b0</color>
+    <color name="startColor_flurries_night">#ff011065</color>
+    <color name="startColor_cold">#ff5e27e3</color>
+    <color name="startColor_hot">#ffcc6410</color>
+    <color name="startColor_sand_storm_day">#ff508490</color>
+    <color name="startColor_sand_storm_night">#ff0d3845</color>
+    <color name="startColor_ice">#ff257baa</color>
+    <color name="startColor_windy_day">#ff33617f</color>
+    <color name="startColor_windy_night">#ff0c1a24</color>
+     
+    <color name="cardview_bg_color_dark">#33000000</color>
+    <color name="cardview_bg_color_light">#33ffffff</color>
+    <color name="cardview_bg_color_alpha">#00000000</color>
+    
+    <color name="light_grey">#E6E6E6</color>
+    <color name="dark_grey">#B8B8B8</color>
+
+
+
+
+</resources>

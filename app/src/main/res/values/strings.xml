@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MH天气</string>
+    <string name="city_list">城市列表</string>
+    <string name="addcity_current_location">当前位置</string>
+    <string name="addcity_locating">定位中&#8230;</string>
+    <string name="addcity_city_list">城市列表</string>
+    <string name="addcity_no_result">没有符合您条件的城市</string>
+    <string name="addcity_locate_failure">定位失败,请重试!</string>
+    <string name="addcity_existed">城市已存在!</string>
+    <string name="addcity">添加城市</string>
+    <string name="addcity_search_city">搜索城市</string>
+    <string name="detail_wind_force">风力风向</string>
+    <string name="detail_air_quality">空气质量</string>
+    <string name="detail_default_text">暂无数据</string>
+    <string name="detail_air_index">空气指数</string>
+    <string name="detail_last_update">已更新</string>
+    <string name="detail_title_daily">天气预报</string>
+    <string name="detail_title_hourly">3小时天气预报</string>
+    <string name="detail_title_air">空气质量</string>
+    <string name="detail_title_pm25">PM2.5</string>
+    <string name="detail_title_pm10">PM10</string>
+    <string name="detail_title_index">AQI</string>
+    <string name="detail_air_last_release">发布</string>
+    <string name="pager_error_msg_default">刷新失败,请重试!</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_location">定位</string>
+
+    <!-- settings -->
+    <string name="settings">设置</string>
+    <string name="setting_pref_general_title">基本设置</string>
+    <string name="setting_pref_advanced_title">高级设置</string>
+    <string name="setting_widget_refresh_title">自动刷新</string>
+    <string name="setting_widget_refresh_time_title">刷新时间</string>
+    <string name="setting_widget_refresh_time_default_summary">未设置</string>
+    <string name="setting_widget_city_key">city</string>
+    <string name="setting_widget_city_title">选择显示的城市</string>
+    <string name="setting_widget_city_dialog_title">选择城市</string>
+    <string name="setting_widget_refresh_key">refresh</string>
+    <string name="setting_widget_refresh_time_key">refresh_time</string>
+    <string name="setting_widget_refresh_interval_key">refresh_interval</string>
+    <string name="setting_widget_refresh_interval_title">刷新间隔</string>
+    <string name="setting_widget_refreshtime_default_value">06:00</string>
+    <string name="setting_refresh_time">刷新时间</string>
+    <string name="setting_default_time">00:00</string>
+    <string name="setting_not_open">未开启</string>
+    <string name="setting_close">关闭</string>
+    <string name="setting_open">开启</string>
+    <string name="setting_widget">天气小组件</string>
+    <string name="setting_basic">基本设置</string>
+    <string name="setting_card_manager_title">卡片管理</string>
+    <string name="widget_tap_to_add_city">轻敲此处以添加城市</string>
+    <string name="widget_existed">天气小组件已存在</string>
+
+
+    <string-array name="setting_widget_refreshtime">
+        <item>无</item>
+    </string-array>
+
+    <!-- server -->
+
+
+    <!-- query activity -->
+    <string name="query_activity_label">天气查询</string>
+    <string name="query_city_hint">查询城市</string>
+    <string name="query_city_list">城市列表</string>
+    <string name="query_location">当前位置</string>
+    <string name="query_loading">查询中,请稍候&#8230;</string>
+    <string name="query_failure">查询失败,请重试!</string>
+
+
+    <string name="today">今天</string>
+    <string name="tommorow">明天</string>
+
+    <string name="card_daily_title">每日天气预报</string>
+
+    <string name="card_hourly_sunrise_sunset">日出：%1$s  ,  日落:%2$s</string>
+
+    <string name="card_air_title">空气指数</string>
+    <string name="card_air_quality">空气质量</string>
+    <string name="card_air_update_time">%1$s 发布</string>
+
+    <string name="card_real_title">实时天气</string>
+    <string name="card_real_hum">湿度</string>
+    <string name="card_real_weather">天气</string>
+    <string name="card_real_temp">体感温度</string>
+
+    <string-array name="card_list">
+        <item>@string/card_real_title</item>
+        <item>@string/card_air_title</item>
+        <item>3小时天气预报</item>
+        <item>@string/card_daily_title</item>
+        <item>灾害预警</item>
+        <item>生活指数</item>
+    </string-array>
+
+    <string-array name="card_list_key">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="title_activity_weather_main_dev">WeatherMainActivityDev</string>
+    <string name="title_activity_city_list">城市列表</string>
+    <string name="title_activity_weather_list">天气列表</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- server msg -->
+    <string name="msg_error_network_unavailable">网络不可用</string>
+    <string name="msg_error_server_unavailable">服务器不可用</string>
+    <string name="msg_error_no_more_requests">今日查询次数已达上限!</string>
+    <string name="msg_error_unknown_city">未知城市</string>
+    <string name="msg_error_anr">服务器繁忙,请重试！</string>
+    <string name="msg_error_timed_out">连接超时,请重试！</string>
+    <string name="msg_error_default">加载失败,请重试!</string>
+    <string name="msg_error_existed_city">城市已存在</string>
+
+    <string name="city_list_request_location">定位中,请稍候&#8230;</string>
+    <string name="city_list_query_weather">查询中,请稍候&#8230;</string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

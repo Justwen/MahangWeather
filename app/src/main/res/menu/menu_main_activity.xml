@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/main_menu" >
+        <item
+            android:id="@+id/query"
+            android:icon="@drawable/ic_search"
+            app:showAsAction="ifRoom"
+            android:title="@string/addcity"/>
+        <item
+            android:id="@+id/share"
+            app:showAsAction="never"
+            android:visible="false"
+            android:title="@string/menu_share">
+        </item>
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_setting"
+            app:showAsAction="never"
+            android:title="@string/menu_setting"/>
+    </group>
+
+</menu>

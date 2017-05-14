@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/setting_basic" >
+        <MultiSelectListPreference
+            android:dialogTitle="@string/setting_card_manager_title"
+            android:entries="@array/card_list"
+            android:entryValues="@array/card_list_key"
+            android:key="card_manager"
+            android:defaultValue="@array/card_list_key"
+            android:title="@string/setting_card_manager_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

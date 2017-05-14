@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view_ripple_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/detail_title_hourly" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.5"
+        android:background="@color/text_color" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:scrollbars="@null" >
+
+        <FrameLayout
+            android:id="@+id/chart_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hourly_info"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.mahang.weather.view.card.WeatherCardHourlyChartView
+                android:id="@+id/hourly_info_chart"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_hourly_chart_view_height"
+                android:layout_marginTop="35dp" />
+        </FrameLayout>
+    </HorizontalScrollView>
+
+    <com.mahang.weather.view.CardListView
+        android:id="@+id/card_hourly_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/abc_list_divider_mtrl_alpha"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:alpha="0.5"
+        android:background="@color/text_color" />
+
+    <TextView
+        android:id="@+id/sun"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="10dp" />
+
+</LinearLayout>

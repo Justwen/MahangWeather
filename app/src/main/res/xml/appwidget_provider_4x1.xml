@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+     android:minWidth="@dimen/widget_minWidth_4x1"
+    android:minHeight="@dimen/widget_minHeight_4x1"
+    android:updatePeriodMillis="1"
+    android:previewImage="@drawable/widget_preview_4x1"
+    android:initialLayout="@layout/widget_clock_4x1">
+</appwidget-provider>
