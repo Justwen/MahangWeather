@@ -1,2 +1,5 @@
 *.bin
 *.lock
+/app/build
+/.idea
+/gradle
