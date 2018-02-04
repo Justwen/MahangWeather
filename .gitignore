@@ -3,3 +3,7 @@
 /app/build
 /.idea
 /gradle
+build/
+.idea/workspace.xml
+.idea/workspace.xml
+.idea/workspace.xml

@@ -10,7 +10,7 @@ import android.support.v4.app.ActivityCompat;
 
 public class PermissionUtils {
 
-    private PersmissionUtils {
+    private PermissionUtils() {
 
     }
 

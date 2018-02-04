@@ -1,11 +1,10 @@
 package com.mahang.weather.model.api;
 
+import com.mahang.weather.model.OnHttpCallBack;
 import com.mahang.weather.model.entity.WeatherInfo;
 
 public interface WeatherApi {
 	
-	void queryWeather(String cityName);
-
-	void queryWeather(String cityName,WeatherInfo weatherInfo);
+	void queryWeather(String cityName, OnHttpCallBack<WeatherInfo> callBack);
 
 }

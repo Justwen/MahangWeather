@@ -119,6 +119,9 @@
     <string name="msg_error_server_unavailable">服务器不可用</string>
     <string name="msg_error_no_more_requests">今日查询次数已达上限!</string>
     <string name="msg_error_unknown_city">未知城市</string>
+    <string name="msg_error_no_data">该城市/地区没有你所请求的数据</string>
+    <string name="msg_error_param_invalid">参数错误，请检查你传递的参数是否正确</string>
+    <string name="msg_error_too_fast">请求过于频繁，请稍后再试</string>
     <string name="msg_error_anr">服务器繁忙,请重试！</string>
     <string name="msg_error_timed_out">连接超时,请重试！</string>
     <string name="msg_error_default">加载失败,请重试!</string>

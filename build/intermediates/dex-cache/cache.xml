@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="D:\Development\Github\MahangWeather\app\libs\ottomaster.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="3e5cbffa2b18cd33e678c9521103f4b1e91f06b7">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\ottomaster_a73944ab4e00a11f4e3cefef8c48566cbcc326fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\hasee\.android\build-cache\07c3b7dc811f3c788c0a32b01e9b17d32a13f191\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -21,21 +30,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Github\MahangWeather\app\libs\ottomaster.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="3e5cbffa2b18cd33e678c9521103f4b1e91f06b7">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\ottomaster_a73944ab4e00a11f4e3cefef8c48566cbcc326fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\hasee\.android\build-cache\228d82af81a082bbe7e4e26d49881397ef5552a4\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="4e38f488b591fa8ef9dce3e21752c92bde5f6f7c">
         <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_d5ca7a40575b3a065b8c65262c9ed30d35decd05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hasee\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.2\8b68a849722b44f584e2d68c451c5e3844c10380\support-annotations-26.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="8b68a849722b44f584e2d68c451c5e3844c10380">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.2_c8bf2413f4c1bb4835ff36fb1ed5d619081b3501.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hasee\.android\build-cache\3176dddcb8a44fa915179418c8ea050344c49b68\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="48a969b476c5c4bd8cabfe295428ff222bc68b8e">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_2bb1c02fa3ef0283d12bcafe3ad6aed9d082a94a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,21 +102,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\hasee\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jar="D:\Development\Github\MahangWeather\app\libs\liteormmaster.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.5.1_086fe9dc537816790364338d9de9ad63ef9b50d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.android\build-cache\6b06bfcbaba3062103d801c66e842af0a91857fa\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_f12520f8d11ee04f470782a006862647216203b7.jar" />
+        sha1="bcac32e40eaae1e12227fa9b2f6ee18bd9946535">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\liteormmaster_a42776337c4ba31aa634a6f38a11f8a6e3e7a4d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,93 +120,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Github\MahangWeather\app\libs\liteormmaster.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="bcac32e40eaae1e12227fa9b2f6ee18bd9946535">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\liteormmaster_a42776337c4ba31aa634a6f38a11f8a6e3e7a4d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\gson-2.7_ff49d4631077ba297334b4794c9584bb82755b17.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\hasee\.android\build-cache\c4b77d255905b1e77c633cc90b5cb53c4667a62b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="b4a446c110c5a9f3a62907367d5eea4d4062c36a">
         <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_a49b39a590992bfc025b23fd3503ee0bb507a011.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.android\build-cache\4c2703eaee4f3889d40bb9599f531122cc6e5d51\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="eef44a34be1eef845ecb4072e3692b434af05ad4">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_8d9bbd304e198b771a099501920d94785a37068e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.android\build-cache\eda7133ca32a39f7dd13dfdaf62864a8339f3623\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="94d358351559620a2c3d2ba3ac04d03a59a61bb3">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_e9c0e48dacd1dd34273dc77f70f5d9b5b0ac9a26.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.android\build-cache\99a4ca16eaee64fcb70f80388d253c4fb87cee8f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="53762fb1daacc5e5fb9ce83c4d00365f71c10f1a">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_fef88f3f33ed75f79dbf7059e1515140d0a20d8e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.android\build-cache\43304aaacbc8ea6174a76e322190980124040e9d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_290686f132b0ccf21e8b8418ef55d8b81c9cc773.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.2\8b68a849722b44f584e2d68c451c5e3844c10380\support-annotations-26.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="8b68a849722b44f584e2d68c451c5e3844c10380">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.2_c8bf2413f4c1bb4835ff36fb1ed5d619081b3501.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.gradle\caches\modules-2\files-2.1\eu.the4thfloor.volley\com.android.volley\2015.05.28\b0b08cc0ac897e596abe6b263a9507cba875b705\com.android.volley-2015.05.28.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\com.android.volley-2015.05.28_075006bbdd8159b4a157c5fd4c720712997000fc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hasee\.android\build-cache\3176dddcb8a44fa915179418c8ea050344c49b68\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="48a969b476c5c4bd8cabfe295428ff222bc68b8e">
-        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_2bb1c02fa3ef0283d12bcafe3ad6aed9d082a94a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -219,12 +147,48 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\hasee\.android\build-cache\4c2703eaee4f3889d40bb9599f531122cc6e5d51\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="eef44a34be1eef845ecb4072e3692b434af05ad4">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_8d9bbd304e198b771a099501920d94785a37068e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hasee\.android\build-cache\eda7133ca32a39f7dd13dfdaf62864a8339f3623\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="94d358351559620a2c3d2ba3ac04d03a59a61bb3">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_e9c0e48dacd1dd34273dc77f70f5d9b5b0ac9a26.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\hasee\.android\build-cache\519403516f7db3216c3e13cf1e9d8c303eb0bc04\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="f9f219b8a8acc35922ab06f4ff29769041481b4b">
         <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_818ae0ddccc8192a6d5532dae7b471cdeb5b5287.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hasee\.android\build-cache\99a4ca16eaee64fcb70f80388d253c4fb87cee8f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="53762fb1daacc5e5fb9ce83c4d00365f71c10f1a">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_fef88f3f33ed75f79dbf7059e1515140d0a20d8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hasee\.android\build-cache\43304aaacbc8ea6174a76e322190980124040e9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="D:\Development\Github\MahangWeather\app\build\intermediates\pre-dexed\debug\classes_290686f132b0ccf21e8b8418ef55d8b81c9cc773.jar" />
     </item>
 
 </items>

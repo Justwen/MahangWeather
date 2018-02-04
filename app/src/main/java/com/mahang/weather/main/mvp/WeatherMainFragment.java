@@ -1,7 +1,5 @@
 package com.mahang.weather.main.mvp;
 
-import java.util.List;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -17,6 +15,8 @@ import com.mahang.weather.model.entity.WeatherInfo;
 import com.mahang.weather.ui.activity.CityListActivity;
 import com.mahang.weather.view.NavigationHeaderLayout;
 import com.mahang.weather.view.WeatherViewPager;
+
+import java.util.List;
 
 public class WeatherMainFragment extends BaseFragment implements WeatherMainViewContract.View {
 
@@ -45,12 +45,12 @@ public class WeatherMainFragment extends BaseFragment implements WeatherMainView
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_view_pager, container, false);
-		mViewPager = (WeatherViewPager) view.findViewById(R.id.view_pager);
+		mViewPager = view.findViewById(R.id.view_pager);
 		mViewPager.setAdapter(mAdapter);
 		mViewPager.addOnPageChangeListener(mPageChangeListener);
         NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
-        mHeaderView = (NavigationHeaderLayout) navigationView.getHeaderView(0);
-        mPresenter.updateHeaderView();
+//        mHeaderView = (NavigationHeaderLayout) navigationView.getHeaderView(0);
+//        mPresenter.updateHeaderView();
 		return view;
 	}
 

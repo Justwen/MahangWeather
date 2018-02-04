@@ -1,20 +1,21 @@
 package com.mahang.weather.model.impl;
 
+import android.content.Context;
+
+import com.litesuits.orm.LiteOrm;
+import com.litesuits.orm.db.DataBase;
+import com.mahang.weather.R;
+import com.mahang.weather.common.Constants;
+import com.mahang.weather.common.EventHandler;
+import com.mahang.weather.model.OnHttpCallBack;
+import com.mahang.weather.model.WeatherModel;
+import com.mahang.weather.model.api.WeatherApi;
+import com.mahang.weather.model.api.hefeng.HefengWrapper;
+import com.mahang.weather.model.entity.WeatherInfo;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import android.content.Context;
-
-import com.mahang.weather.R;
-import com.mahang.weather.common.EventHandler;
-import com.mahang.weather.model.WeatherModel;
-import com.mahang.weather.model.api.WeatherApi;
-import com.litesuits.orm.LiteOrm;
-import com.litesuits.orm.db.DataBase;
-import com.mahang.weather.common.Constants;
-import com.mahang.weather.model.api.hefeng.HefengWrapper;
-import com.mahang.weather.model.entity.WeatherInfo;
 
 public class WeatherModelImpl implements WeatherModel {
 
@@ -35,7 +36,7 @@ public class WeatherModelImpl implements WeatherModel {
 	}
 	
 	private void initApiList(Context context){
-		mApiList.add(0, new HefengWrapper(context,this));
+		mApiList.add(0, new HefengWrapper());
 		mApi = mApiList.get(0);
 	}
 
@@ -59,7 +60,18 @@ public class WeatherModelImpl implements WeatherModel {
                 return;
             }
         }
-		mApi.queryWeather(cityName);
+		mApi.queryWeather(cityName, new OnHttpCallBack<WeatherInfo>() {
+			@Override
+			public void onError(String text) {
+
+			}
+
+			@Override
+			public void onSuccess(WeatherInfo data) {
+
+				save(data);
+			}
+		});
 	}
 	
 	private void loadData() {
@@ -125,7 +137,7 @@ public class WeatherModelImpl implements WeatherModel {
 	public void updateWeather(String cityName) {
 		for (WeatherInfo info: mWeatherList){
 			if (cityName.equals(info.getCityName())){
-				mApi.queryWeather(cityName,info);
+			//	mApi.queryWeather(cityName,info);
 				return;
 			}
 		}
