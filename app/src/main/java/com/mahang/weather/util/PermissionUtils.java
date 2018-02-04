@@ -10,6 +10,10 @@ import android.support.v4.app.ActivityCompat;
 
 public class PermissionUtils {
 
+    private PersmissionUtils {
+
+    }
+
     @TargetApi(Build.VERSION_CODES.M)
     public static boolean requestLocationPermission(Activity activity){
         if (activity.checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_DENIED){
